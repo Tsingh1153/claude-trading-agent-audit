@@ -1,0 +1,116 @@
+ts,symbol,action,price,entry,stop,target,stated_rr,horizon_days,reason_tags,rules_invoked,prompt_version,model
+2026-10-07 12:46,QQQ,PASS,,,,,,,['overbought_extended'],[],v1,
+2026-10-07 12:46,XLK,PASS,,,,,,,['overbought_extended'],[],v1,
+2026-10-07 12:46,VTI,PASS,,,,,,,['no_setup'],[],v1,
+2026-10-07 12:46,XLV,WAIT,,170.0,,,,,['no_clear_edge'],[],v1,
+2026-10-08 10:47,SPY,TOOK,776.004,776.004,714.0,,,,"['idle_cash_core', 'above_50d']",['core_position_idle_cash'],v1,
+2026-10-08 12:46,SPY,HOLD,774.91,776.004,714.0,,,,['core_hold'],[],v1,
+2026-10-08 15:46,SPY,HOLD,773.38,776.004,714.0,,,,['core_hold'],[],v1,
+2026-10-09 10:50,SPY,HOLD,776.41,776.004,714.0,,,,['core_hold'],[],v1,
+2026-10-09 12:50,SPY,HOLD,778.24,776.004,714.0,,,,['core_hold'],[],v1,
+2026-10-09 15:47,SPY,HOLD,778.62,776.004,714.0,,,,['core_hold'],[],v1,
+2026-10-12 10:50,SPY,HOLD,778.0,776.004,714.0,,,,['core_hold'],[],v1,
+2026-10-12 12:50,SPY,HOLD,778.08,776.004,714.0,,,,['core_hold'],[],v1,
+2026-10-12 15:47,SPY,HOLD,777.85,776.004,714.0,,,,['core_hold'],[],v1,
+2026-10-13 10:50,SPY,HOLD,777.56,776.004,714.0,,,,['core_hold'],[],v1,
+2026-10-13 12:50,SPY,HOLD,777.87,776.004,714.0,,,,['core_hold'],[],v1,
+2026-10-13 15:50,SPY,HOLD,778.22,776.004,714.0,,,,['core_hold'],[],v1,
+2026-10-14 10:50,SPY,HOLD,772.97,776.004,714.0,,,,['core_hold'],[],v1,
+2026-10-14 10:50,UMC,PASS,21.81,21.8,20.1,24.0,1.3,,"['rr_below_min', 'earnings_risk']",['starter_min_rr_1.5'],v1,
+2026-10-14 10:50,QQQ,WAIT,736.9,727.0,718.0,755.0,3.0,,"['rr_below_min', 'near_50d_support']",['starter_min_rr_1.5'],v1,
+2026-10-14 10:50,IWM,PASS,273.7,,,,,,['below_falling_50d'],[],v1,
+2026-10-14 12:50,QQQ,TOOK,731.5,731.62,718.0,755.0,1.7,,"['near_50d_support', 'dip_in_uptrend', 'correlated_with_core']",[],v1,
+2026-10-14 12:50,UMC,PASS,21.68,,,,,,['earnings_risk'],[],v1,
+2026-10-14 12:50,IWM,PASS,271.7,,,,,,['below_50d'],[],v1,
+2026-10-14 12:50,SPY,HOLD,770.25,776.004,714.0,,,,['core_hold'],[],v1,
+2026-10-14 14:50,QQQ,HOLD,727.64,731.62,718.0,755.0,,,['stop_intact'],[],v1,
+2026-10-14 14:50,QQQ,PASS,727.64,,,,,,"['already_held', 'correlated_with_core', 'stop_close', 'market_weak']",[],v1,
+2026-10-14 14:50,SPY,HOLD,767.77,776.004,714.0,,,,['core_hold'],[],v1,
+2026-10-14 14:50,UMC,PASS,21.41,,,,,,['earnings_risk'],[],v1,
+2026-10-14 14:50,IWM,PASS,270.5,,,,,,['below_50d'],[],v1,
+2026-10-15 10:50,XLV,TOOK,178.07,178.07,173.5,186.0,1.8,,"['new_high', 'sector_leader', 'diversify_from_core']",['starter_min_rr_1.5'],v2,claude-sonnet-5-5
+2026-10-15 10:50,XLP,PASS,87.6,,,,,,['extended'],[],v2,claude-sonnet-5-5
+2026-10-15 10:50,GLD,PASS,,,,,,,['below_50d'],[],v2,claude-sonnet-5-5
+2026-10-15 10:50,XLF,PASS,,,,,,,"['below_50d', 'earnings_risk']",[],v2,claude-sonnet-5-5
+2026-10-15 10:50,UMC,PASS,20.68,,,,,,['broke_support'],[],v2,claude-sonnet-5-5
+2026-10-15 10:50,QQQ,HOLD,722.3,,718.0,,,,['stop_intact'],[],v2,claude-sonnet-5-5
+2026-10-15 12:50,XLB,PASS,50.45,,49.3,51.2,0.7,,['rr_below_min'],[],v2,claude-sonnet-5-5
+2026-10-15 12:50,XLRE,PASS,42.03,,41.1,43.2,1.3,,"['rr_below_min', 'below_50d']",[],v2,claude-sonnet-5-5
+2026-10-15 12:50,SLV,WAIT,51.38,52.5,48.9,55.9,1.8,,"['falling_knife', 'below_50d']",[],v2,claude-sonnet-5-5
+2026-10-15 12:50,XLC,PASS,,,,,,,['no_edge'],[],v2,claude-sonnet-5-5
+2026-10-15 14:50,XLY,PASS,113.1,,,,,,['below_50d'],[],v2,claude-sonnet-5-5
+2026-10-15 14:50,TLT,PASS,80.1,,,,,,['below_50d'],[],v2,claude-sonnet-5-5
+2026-10-15 14:50,XLC,PASS,112.5,,109.5,116.0,1.1,,['rr_below_min'],[],v2,claude-sonnet-5-5
+2026-10-16 10:50,XLB,PASS,51.25,,49.4,,,,"['rr_below_min', 'slots_full']",[],v2,claude-sonnet-5-5
+2026-10-16 10:50,XLU,PASS,42.04,,40.9,,1.3,,['rr_below_min'],[],v2,claude-sonnet-5-5
+2026-10-16 10:50,XLE,PASS,67.3,,,,,,['extended'],[],v2,claude-sonnet-5-5
+2026-10-16 10:50,XLF,PASS,55.8,,,,,,['below_50d'],[],v2,claude-sonnet-5-5
+2026-10-16 10:50,QQQ,HOLD,722.96,,718.0,,,,['stop_intact'],[],v2,claude-sonnet-5-5
+2026-10-16 12:50,QQQ,EXIT,716.18,,718.0,,,,['stop_hit'],['stop_exit'],v2,claude-sonnet-5-5
+2026-10-16 12:50,XLU,PASS,42.13,,40.9,,1.3,,"['rr_below_min', 'stale_indicators']",[],v2,claude-sonnet-5-5
+2026-10-16 12:50,XLB,PASS,51.0,,,,,,"['rr_below_min', 'stale_indicators']",[],v2,claude-sonnet-5-5
+2026-10-16 12:50,XLE,PASS,67.8,,,,,,['extended'],[],v2,claude-sonnet-5-5
+2026-10-16 14:50,XLU,PASS,42.19,,41.1,43.4,1.1,,['rr_below_min'],[],v2,claude-sonnet-5-5
+2026-10-16 14:50,XLE,PASS,68.09,,,,,,['extended'],[],v2,claude-sonnet-5-5
+2026-10-16 14:50,XLP,PASS,87.4,,,,,,['extended'],[],v2,claude-sonnet-5-5
+2026-10-19 10:50,XLV,HOLD,175.66,178.07,173.5,186.0,,,['stop_intact'],[],v2,claude-sonnet-5-5
+2026-10-19 12:50,XLV,HOLD,175.53,178.07,173.5,186.0,,,['stop_intact'],[],v2,claude-sonnet-5-5
+2026-10-19 14:50,XLV,HOLD,176.16,178.07,173.5,186.0,,,['stop_intact'],[],v2,claude-sonnet-5-5
+2026-10-19 10:50,XLY,PASS,113.9,,111.6,117.0,1.3,,['rr_below_min'],[],v2,claude-sonnet-5-5
+2026-10-19 10:50,SMH,PASS,553.9,,,,,,"['falling_knife', 'below_50d']",[],v2,claude-sonnet-5-5
+2026-10-19 10:50,XLE,PASS,67.8,,,,,,['extended'],[],v2,claude-sonnet-5-5
+2026-10-19 12:50,XLY,PASS,114.4,,112.1,117.5,1.35,,['rr_below_min'],[],v2,claude-sonnet-5-5
+2026-10-19 12:50,XLK,PASS,186.9,,,,,,"['below_20d', 'falling_knife']",[],v2,claude-sonnet-5-5
+2026-10-19 12:50,XLP,WAIT,87.2,85.0,,,,,['extended'],[],v2,claude-sonnet-5-5
+2026-10-19 14:50,XLB,WAIT,51.07,51.5,49.9,52.5,1.2,,['rr_below_min'],[],v2,claude-sonnet-5-5
+2026-10-19 14:50,XLY,PASS,114.4,,,,1.3,,['rr_below_min'],[],v2,claude-sonnet-5-5
+2026-10-19 14:50,XLP,PASS,87.5,,,,,,['extended'],[],v2,claude-sonnet-5-5
+2026-10-20 10:50,SPY,ADD,771.69,771.69,714.0,,,,"['core_add', 'cash_drag']",['core_position'],v2,claude-sonnet-5-5
+2026-10-20 10:50,XLY,PASS,115.9,,112.5,119.75,1.15,,['rr_below_min'],[],v2,claude-sonnet-5-5
+2026-10-20 10:50,XLF,PASS,55.9,,,,,,['below_50d'],[],v2,claude-sonnet-5-5
+2026-10-20 10:50,XLRE,PASS,42.4,,,,,,['below_50d'],[],v2,claude-sonnet-5-5
+2026-10-20 12:50,XLY,WAIT,115.5,117.0,,,1.2,,['rr_below_min'],[],v2,claude-sonnet-5-5
+2026-10-20 12:50,XLF,PASS,55.6,,,,,,['below_50d'],[],v2,claude-sonnet-5-5
+2026-10-20 12:50,XLP,PASS,,,,,,,['extended'],[],v2,claude-sonnet-5-5
+2026-10-20 14:50,DOCS,WAIT,33.62,32.0,29.9,36.0,0.9,,"['extended', 'rr_below_min']",[],v3,claude-sonnet-5-5
+2026-10-20 14:50,CBRE,PASS,134.93,,128.4,140.3,0.8,,"['rr_below_min', 'earnings_risk']",[],v3,claude-sonnet-5-5
+2026-10-20 14:50,QGEN,PASS,49.38,,,,,,"['fractional_only', 'price_cap']",[],v3,claude-sonnet-5-5
+2026-10-21 10:50,CVE,WAIT,33.17,34.2,30.3,,0.35,,['rr_below_min'],[],v3,claude-sonnet-5-5
+2026-10-21 10:50,TOST,PASS,32.94,,28.7,33.8,0.3,,['rr_below_min'],[],v3,claude-sonnet-5-5
+2026-10-21 10:50,DOCS,WAIT,33.77,32.0,,,,,['extended'],[],v3,claude-sonnet-5-5
+2026-10-21 12:50,CVE,PASS,32.92,,30.3,34.2,0.5,,['rr_below_min'],[],v3,claude-sonnet-5-5
+2026-10-21 12:50,TOST,PASS,32.96,,28.7,,0.3,,['rr_below_min'],[],v3,claude-sonnet-5-5
+2026-10-21 12:50,DOCS,WAIT,33.91,32.0,,,,,['extended'],[],v3,claude-sonnet-5-5
+2026-10-21 14:50,XLV,HOLD,178.88,178.07,173.5,186.0,,,['stop_intact'],[],v4,claude-sonnet-5-5
+2026-10-21 14:50,DOCS,PASS,34.08,,,,,,"['rr_below_min', 'stale_indicators']",[],v4,claude-sonnet-5-5
+2026-10-21 14:50,CVE,PASS,33.11,,,,,,"['rr_below_min', 'stale_indicators']",[],v4,claude-sonnet-5-5
+2026-10-21 14:50,TOST,PASS,32.91,,,,,,"['rr_below_min', 'stale_indicators']",[],v4,claude-sonnet-5-5
+2026-10-21 14:50,CWEN,PASS,31.68,,,,,,"['rr_below_min', 'stale_indicators']",[],v4,claude-sonnet-5-5
+2026-10-22 10:58,PPL,TOOK,35.09,35.09,34.1,36.8,1.7,,"['relative_strength', 'reclaimed_50d']","['starter_min_rr_1.5', 'check_py', 'downtrend_starters_only']",v5,claude-opus-5-5
+2026-10-22 10:58,KR,WAIT,65.68,63.0,62.3,,0.8,,"['rr_below_min', 'resistance_overhead']",[],v5,claude-opus-5-5
+2026-10-22 10:58,FISV,PASS,49.61,,,,,,"['downtrend', 'earnings_risk']",[],v5,claude-opus-5-5
+2026-10-22 10:58,XLV,HOLD,181.03,178.07,175.5,186.0,,,"['time_stop_waived', 'trail_stop']",[],v5,claude-opus-5-5
+2026-10-22 10:58,SPY,HOLD,762.56,773.73,714.0,,,,['core_hold'],[],v5,claude-opus-5-5
+2026-10-22 12:58,DVN,WAIT,49.27,47.8,46.7,51.7,0.95,,['rr_below_min'],[],v5,claude-opus-5-5
+2026-10-22 12:58,LUV,PASS,41.44,,39.0,43.2,0.7,,['rr_below_min'],[],v5,claude-opus-5-5
+2026-10-22 12:58,KR,WAIT,66.87,63.5,,,,,"['extended', 'resistance_overhead']",[],v5,claude-opus-5-5
+2026-10-22 14:55,SPY,EXIT,762.2042,773.73,714.0,,,,"['swap_core', 'downtrend']","['core_funding_source', 'check_py']",v5,claude-opus-5-5
+2026-10-22 14:55,DHT,TOOK,24.018,24.018,22.2,26.85,1.55,,"['dip_in_uptrend', 'relative_strength']","['starter_min_rr_1.5', 'check_py', 'downtrend_starters_only']",v5,claude-opus-5-5
+2026-10-22 14:55,RBA,PASS,84.29,,78.9,89.1,0.9,,['rr_below_min'],[],v5,claude-opus-5-5
+2026-10-22 14:55,CE,PASS,46.13,,43.4,49.7,1.3,,"['rr_below_min', 'earnings_risk']",[],v5,claude-opus-5-5
+2026-10-23 10:52,XLV,EXIT,179.1901,178.07,175.5,186.0,,,['time_stop'],"['time_stop', 'check_py']",v5,claude-opus-5-5
+2026-10-23 10:52,ERIC,TOOK,10.5372,10.54,10.1,11.2,1.53,,"['post_earnings_gap', 'relative_strength', 'whole_share']","['starter_min_rr_1.5', 'check_py', 'whole_share_resting_stop']",v5,claude-opus-5-5
+2026-10-23 10:52,NTNX,PASS,70.79,,65.8,75.9,1.0,,['rr_below_min'],[],v5,claude-opus-5-5
+2026-10-23 10:52,KMI,PASS,34.42,,,,,,"['same_sector_as_holding', 'wide_stop']",['diversification'],v5,claude-opus-5-5
+2026-10-23 12:58,STNE,WAIT,11.26,11.0,10.45,12.46,1.48,,"['rr_below_min', 'slots_full']",[],v5,claude-opus-5-5
+2026-10-23 12:58,PR,PASS,25.59,,23.9,,,,['same_sector_as_holding'],['diversification'],v5,claude-opus-5-5
+2026-10-23 12:58,S,PASS,23.54,,21.0,26.3,1.1,,['rr_below_min'],[],v5,claude-opus-5-5
+2026-10-23 14:58,S,WAIT,23.81,24.3,20.95,26.5,0.94,,['rr_below_min'],[],v5,claude-opus-5-5
+2026-10-23 14:58,SAIL,WAIT,21.86,20.6,19.4,,0.5,,"['rr_below_min', 'resistance_overhead']",[],v5,claude-opus-5-5
+2026-10-23 14:58,STNE,WAIT,11.39,11.0,10.45,12.46,1.14,,['rr_below_min'],[],v5,claude-opus-5-5
+2026-10-23 12:58,PPL,HOLD,34.88,35.09,34.1,36.8,,,['stop_intact'],[],v5,claude-opus-5-5
+2026-10-23 12:58,DHT,HOLD,24.39,24.018,22.2,26.85,,,['stop_intact'],[],v5,claude-opus-5-5
+2026-10-23 12:58,ERIC,HOLD,10.605,10.5372,10.1,11.2,,,['stop_intact'],[],v5,claude-opus-5-5
+2026-10-23 14:58,PPL,HOLD,34.99,35.09,34.1,36.8,,,['stop_intact'],[],v5,claude-opus-5-5
+2026-10-23 14:58,DHT,HOLD,24.405,24.018,22.2,26.85,,,['stop_intact'],[],v5,claude-opus-5-5
+2026-10-23 14:58,ERIC,HOLD,10.595,10.5372,10.1,11.2,,,['stop_intact'],[],v5,claude-opus-5-5
