@@ -6,13 +6,13 @@ RAW = ROOT/"private"/"decisions.jsonl"
 OUT = ROOT/"data"/"decisions_public.csv"
 
 KEEP = ["ts", "symbol", "action", "price", "entry", "stop", "target",
-        "stated_rr", "horizon_days", "reason_tags", "rules_invoked", ""
+        "stated_rr", "horizon_days", "reason_tags", "rules_invoked",
         "prompt_version", "model"]
 
 df = pd.read_json(RAW, lines=True)
 public = df[KEEP].copy()
 public["ts"] = (pd.to_datetime(public["ts"], utc=True)
-                .dt.tz_convert("America/New_york")
+                .dt.tz_convert("America/New_York")
                 .dt.strftime("%Y-%m-%d %H:%M"))
 public["stated_rr"] = public["stated_rr"].round(2)
 
